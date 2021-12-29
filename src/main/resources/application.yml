@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /resource-server
+
+spring:
+  data:
+    cassandra:
+      keyspace: money_transfer
+      port: '9042'
+      contact-points: localhost
+      schema-action: NONE
+      username:
+      password:
+
+okta:
+  oauth2:
+    issuer: https://dev-66162688.okta.com/oauth2/aus3aq5nujOJ4vBv55d7
+    client-id: 0oa38n1sh8bAVe7P25d7
+    client-secret: A0IdNzZJN7cHLBDSvhS-xxgyqOiM24hDM_-MpDkP
+
